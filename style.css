@@ -6,16 +6,44 @@ body{
     background-color: gray;
     font-family: 'Rubik Glitch', sans-serif;
     letter-spacing: 2px; 
+    background-image: url(back.jpg);
+    
 }
 
-.heading{
-    font-size: 60px;
+.game-title{
+    font-size: 100px;
     text-align: center;
+    height: auto;
     font-style: "Comfortaa";
 }
 
-.a-box{
+.a-box{  
+    width: 1500px;
+    height: 700px;
     background-color: white;
-    margin:  10px;
+    vertical-align: middle;
+    margin:  100px;
     padding: 50px
+}
+
+.b-box{
+    font-size: 40px;
+    width: 500px;
+    height: 250px; 
+    background-color: white;
+    margin:  100px;
+    padding: 50px;
+    text-align: center;
+}
+
+.heading{
+    text-align: center
+}
+
+.desctription{
+    font-size: 50px;
+}
+
+.btn{
+    font-size: 40px;
 }

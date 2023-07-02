@@ -1,0 +1,12 @@
+.message{
+    width: 500px;
+    font-size: 30px;
+    border-style: dashed;
+    border-radius: 0%;
+    position: fixed;
+}
+
+.send{
+    position: fixed;
+    transform: scale(0.1)
+}
